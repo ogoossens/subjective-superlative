@@ -15,6 +15,7 @@ AI systems that read web pages tend to rank pages higher when their text contain
 
 ## Simple Scoring Sketch
 $\text{SSHScore}(p, q) = w_R \cdot R + w_S \cdot S + w_A \cdot \text{Dedup}(A, U)$
+
 Higher score implies higher inclusion likelihood in assistant answers.
 
 ## Predictions
