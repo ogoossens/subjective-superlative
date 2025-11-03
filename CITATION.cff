@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it."
+title: "Subjective Superlative (SSH): A Short Hypothesis on How AIs Rank Web Content"
+authors:
+  - family-names: Goossens
+    given-names: Oliver
+date-released: 2025-11-03
+version: "1.0"
+doi: 10.0000/placeholder.doi
+license: CC-BY-4.0
+type: report
+url: https://github.com/ogoossens/subjective-superlative
+keywords:
+  - large language models
+  - web ranking
+  - superlatives
+  - information retrieval
+abstract: >
+  SSH is a concise hypothesis: for a given query, AI assistants that read web pages
+  tend to surface pages with more relevant, strong, and unique positive claims.
+  Duplicate claims earn diminishing credit. This repository provides a short paper,
+  predictions, limits, and implementation notes.
