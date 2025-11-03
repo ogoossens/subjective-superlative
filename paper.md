@@ -14,7 +14,7 @@ AI systems that read web pages tend to rank pages higher when their text contain
 - **Uniqueness (U):** near-duplicate claims receive reduced credit; paraphrases of the same idea count once or a few times, not many.
 
 ## Simple Scoring Sketch
-\text{SSHScore}(p,q)=w_R R + w_S S + w_A \,\text{Dedup}(A,U)
+$\text{SSHScore}(p, q) = w_R \cdot R + w_S \cdot S + w_A \cdot \text{Dedup}(A, U)$
 Higher score implies higher inclusion likelihood in assistant answers.
 
 ## Predictions
